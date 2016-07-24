@@ -1,0 +1,38 @@
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://nagoya-workshop.github.io/'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            # - name: "Apples"
+            #   value: "apples"
+            # - name: "Bananas"
+            #   value: "bananas"
+            # - name: "Pears"
+            #   value: "pears"
+            # - name: "Mangos"
+            #   value: "mangos"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
