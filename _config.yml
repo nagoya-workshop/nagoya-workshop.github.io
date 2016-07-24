@@ -19,3 +19,7 @@ github_username:  nagoya-workshop
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+markdown_ext: md,mkd,mkdn,mdown,mkdown,markdown
+highlighter: rouge # (default: rouge, for Jekyll 3.0+)
