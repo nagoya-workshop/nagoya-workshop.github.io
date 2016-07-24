@@ -36,3 +36,15 @@ prose:
           element: "checkbox"
           label: "Published"
           value: false
+      - name: "author"
+        field:
+          element: "select"
+          label: "Who are you ?"
+          placeholder: "Choose your name"
+          options:
+            - name: "Shoichi AIZAWA"
+              value: "Shoichi AIZAWA"
+            - name: "Motoki TANAKA"
+              value: "Motoki TANAKA"
+            - name: "Nagoya Workshop"
+              value: "Nagoya Workshop"
