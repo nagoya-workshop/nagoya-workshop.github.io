@@ -16,7 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 date_format: "%-d %B %Y"
-permalink: pretty     # (default: date)
+permalink: /:title     # (default: date)
 
 # twitter_username: jekyllrb
 github_username:  nagoya-workshop
